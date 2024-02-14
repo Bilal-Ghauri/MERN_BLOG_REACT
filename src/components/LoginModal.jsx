@@ -168,7 +168,7 @@ const LoginModal = () => {
 										{loading ? <SmallSpinner /> : 'Login'}
 									</button>
 									<div className=' text-center'>
-										<small className=''>
+										{/* <small className=''>
 											Don&apos;t have an account?{' '}
 											<a
 												href='#'
@@ -177,7 +177,7 @@ const LoginModal = () => {
 												data-bs-dismiss='modal'>
 												Register Here!
 											</a>
-										</small>
+										</small> */}
 									</div>
 								</div>
 							</form>
